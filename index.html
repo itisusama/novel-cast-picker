@@ -8,7 +8,22 @@
 </head>
 <body>
     <div id="basket" class="basket"></div>
+    
+    <button id="open-modal" class="add-character-btn">Add Your Characters</button>
+    
+    <!-- START: Add Character Modal -->
+    <div id="character-modal" class="hidden">
+        <div class="modal-content">
+            <h2>Add Character</h2>
+            <input type="text" id="character-name" placeholder="Enter character name">
+            <button id="add-character">Add</button>
+            <button id="close-modal">Close</button>
+        </div>
+    </div>
+    <!-- END: Add Character Modal -->
+    
     <h1>Celebrities</h1>
+    
     <div id="cards-container"></div>
 
     <script src="script.js"></script>
